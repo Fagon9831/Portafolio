@@ -1,0 +1,172 @@
+.MainMenu{
+    background-color: #484848;
+    border-radius: 6px;    
+    display: flex;
+    color: white;
+}
+.MainMenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.MainMenu ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 3px;
+    width: 122px;    
+    text-align: center;   
+    font-style: inherit;
+    letter-spacing: 0.5px;
+    font-weight: lighter; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.MainMenu ul {
+    display: flex;
+    margin: 4px;
+}
+.MainMenu ul li ul{
+    margin: 10px;
+}
+
+.dropdown .dropdown-content{
+    display: none;    
+}
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: rgb(110, 106, 106);
+    min-width: 122px;
+    box-shadow: 0px 8px 16px 0px rgba(194, 188, 188, 0.2);
+    z-index: 1;
+    display: none;
+    padding-left: 1px;
+    border-radius: 7px;
+    margin-top: 11px;
+  }
+  
+  .dropdown-content a {       
+    padding: 11px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;    
+    
+  }
+    
+  .dropdown-content li a{       
+    padding: 1px;
+    text-align: left;
+    
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content li:hover{
+    background-color: rgb(180, 180, 180);
+    border-radius:4px;
+  }
+  .MainMenu ul li:hover {
+    background-color: rgb(180, 180, 180);
+    border-radius:6px;
+  }
+
+  body{
+    background-image: url("../images/Rcube.jpg");
+    margin-left: 12px;
+  }
+.name{
+    width: 50vw;
+    height: 6px;                
+}
+
+body h1{
+    font-size: 3em;
+    font-style: italic;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body h2{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 0px;
+    font-style: inherit;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+}
+.sPerfil{
+    margin-top: 30%;
+}
+.MainMenu ul li.bHome{
+    border-style:outset;    
+    border-color: rgb(141, 20, 20);
+    border-radius: 6px ;
+    background-color: rgb(247, 99, 99);
+}
+.MainMenu ul li.bHome:hover{
+    background-color:rgb(190, 34, 34);
+}
+.sContainmain{
+  background-color: rgba(204, 201, 201, 0.548);
+  border-radius: 5px;
+  height: 82vh;  
+  margin-top: 4 px;
+}
+.sContainmain h1{
+  margin-top: 4px;
+text-transform: uppercase;
+text-align: center;
+font-size: 2em;
+font-style: normal;
+font-weight: lighter;
+padding-top: 10px;
+}
+.sContainer{
+  display: flex;
+}
+.sAboutInfo{
+  width: 49vw;
+  font-style: inherit;
+  letter-spacing: 0.5px;
+  font-weight: lighter; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+.sAboutInfo p{
+  margin: 0px;
+}
+.sAboutInfo h2{
+  margin-top:5px;
+font-size: 1.4em;  
+font-weight: 400;
+}
+.simgPerfil{
+  width: 49vw;
+}
+.references{
+  display: flex;
+}
+.sAboutInfo_2{
+  width: 49vw;
+  font-style: inherit;
+  letter-spacing: 0.5px;
+  font-weight: lighter; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+.sAboutInfo_2 p{
+  margin: 0px;
+}
+.sAboutInfo_2 h2{
+  margin-top:5px;
+font-size: 1.4em;  
+font-weight: 400;
+}
+.image-profile{
+  width: 320px;
+  height: 320px;
+  padding: 30px;
+  margin-top: 8px;
+  margin-left: 5px; 
+}
